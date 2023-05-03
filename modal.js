@@ -565,6 +565,7 @@ function shaixuan() {
   trendRadio.selected('All');
   trendRadio.style('display', 'flex');
   trendRadio.style('flex-direction', 'column');
+  trendRadio.style('gap', '10px');
   const radios = trendRadio.elt.getElementsByTagName('input');
   for (let i = 0; i < radios.length; i++) {
     radios[i].nextSibling.innerHTML = null;
