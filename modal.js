@@ -606,7 +606,7 @@ function shaixuan() {
   threatRadio.selected('All');
   threatRadio.style('display', 'flex');
   threatRadio.style('flex-direction', 'column');
-  threatRadio.style('gap', '5px');
+  threatRadio.style.marginBottom = '10px';
   const radios2 = threatRadio.elt.getElementsByTagName('input');
   for (let i = 0; i < radios2.length; i++) {
     radios2[i].nextSibling.innerHTML = null;
