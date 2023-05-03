@@ -584,7 +584,7 @@ function shaixuan() {
   sizeRadio.selected('All');
   sizeRadio.style('display', 'flex');
   sizeRadio.style('flex-direction', 'column');
-  sizeRadio.style.marginBottom = '10px';
+  sizeRadio.style.marginBottom = '20px';
   const radios1 = sizeRadio.elt.getElementsByTagName('input');
   for (let i = 0; i < radios1.length; i++) {
     radios1[i].nextSibling.innerHTML = null;
